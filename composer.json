@@ -1,0 +1,32 @@
+{
+    "name": "fengwuyan/file-selector",
+    "description": "laravel-admin多媒体上传组件",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fengwuyan",
+            "email": "wxteamvc@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\FileSelector\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\FileSelector\\FileSelectorServiceProvider"
+            ]
+        }
+    }
+}
