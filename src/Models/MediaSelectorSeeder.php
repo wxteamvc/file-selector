@@ -2,7 +2,7 @@
 
 namespace Encore\FileSelector\Models;
 
-use Encore\MediaSelector\RestApi\Helpers\FileUtil;
+use Encore\FileSelector\RestApi\Helpers\FileUtil;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
